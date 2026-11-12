@@ -60,8 +60,8 @@ O que mais gosto de fazer é pegar num problema de negócio e entregar um produt
 ### Estatísticas
 
 <p align="left">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=matheusmanuel2&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=050608&title_color=007DFE&icon_color=007DFE&text_color=c9d1d9" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheusmanuel2&layout=compact&hide_border=true&bg_color=050608&title_color=007DFE&text_color=c9d1d9" />
+  <img height="165" src="./profile/stats.svg" alt="Estatísticas no GitHub" />
+  <img height="165" src="./profile/top-langs.svg" alt="Linguagens mais usadas" />
 </p>
 
 ---

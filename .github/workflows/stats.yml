@@ -1,0 +1,43 @@
+name: Atualizar estatísticas
+
+on:
+  schedule:
+    - cron: "0 5 * * *"   # todos os dias
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/stats.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Card de estatísticas
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=matheusmanuel2&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=007DFE&icon_color=007DFE&text_color=C9D1D9&custom_title=Estatísticas no GitHub
+          path: profile/stats.svg
+          # Se criar o secret STATS_TOKEN (um token pessoal), os repositórios privados também entram nas contas
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Card de linguagens
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=matheusmanuel2&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=007DFE&text_color=C9D1D9&custom_title=Linguagens mais usadas
+          path: profile/top-langs.svg
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Guardar os cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "chore: atualiza cards de estatísticas" || exit 0
+          git push
