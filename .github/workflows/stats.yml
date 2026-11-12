@@ -21,7 +21,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=matheusmanuel2&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=007DFE&icon_color=007DFE&text_color=C9D1D9&custom_title=Estatísticas no GitHub
+          options: username=matheusmanuel2&show_icons=true&hide_border=true&bg_color=0D1117&title_color=007DFE&icon_color=007DFE&text_color=C9D1D9&custom_title=Estatísticas no GitHub
           path: profile/stats.svg
           # Se criar o secret STATS_TOKEN (um token pessoal), os repositórios privados também entram nas contas
           token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
