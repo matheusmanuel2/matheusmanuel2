@@ -24,7 +24,6 @@ Trabalho com **React, Next.js, Angular, TypeScript, NestJS, Express, Laravel, Pr
 
 O que mais gosto de fazer é pegar num problema de negócio e entregar um produto rápido, bem desenhado e fácil de manter. Também já criei conteúdo sobre programação web no [YouTube](https://www.youtube.com/c/matheusmanuel).
 
-- 🔭 Neste momento: a aprender **OutSystems** e a construir aplicações com IA
 - 💬 Fala comigo sobre: desenvolvimento web, performance, infraestrutura e carreira em tech
 - 💼 Aberto a: **vagas Full Stack** (remoto ou presencial em Luanda) e **projetos freelance**
 - 📫 Contacto: [hello@matheusmanuel.com](mailto:hello@matheusmanuel.com)
