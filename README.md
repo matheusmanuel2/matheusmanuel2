@@ -43,16 +43,3 @@ O que mais gosto de fazer é pegar num problema de negócio e entregar um produt
 </p>
 
 ---
-
-### Projetos em destaque
-
-| Projeto | O que é | Stack |
-|---|---|---|
-| [**cmd-automator**](https://github.com/matheusmanuel2/cmd-automator) | App de desktop que sobe vários projetos de uma vez, cada um com o seu terminal real (PTY). | Tauri · React · Rust |
-| [**frontdex**](https://github.com/matheusmanuel2/frontdex) | 🚧 Em desenvolvimento. Em breve mais detalhes. | — |
-| **Kursinha** · [kursinha.com](https://kursinha.com) | Plataforma de cursos com área de membros, checkout e painel admin. 30k+ utilizadores. | Next.js · NestJS · Docker · VPS |
-| **ClubMed Saúde** | Plataforma de telemedicina: landing pages, dashboard e agendamentos. | Angular · Laravel · Figma |
-
-> Grande parte do meu trabalho com clientes está em repositórios privados. Os detalhes de cada projeto estão em [matheusmanuel.com](https://matheusmanuel.com).
-
----
