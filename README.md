@@ -56,16 +56,3 @@ O que mais gosto de fazer é pegar num problema de negócio e entregar um produt
 > Grande parte do meu trabalho com clientes está em repositórios privados. Os detalhes de cada projeto estão em [matheusmanuel.com](https://matheusmanuel.com).
 
 ---
-
-### Estatísticas
-
-<p align="left">
-  <img height="165" src="./profile/stats.svg" alt="Estatísticas no GitHub" />
-  <img height="165" src="./profile/top-langs.svg" alt="Linguagens mais usadas" />
-</p>
-
----
-
-<p align="center">
-  <sub>Vamos conversar? <a href="mailto:hello@matheusmanuel.com">hello@matheusmanuel.com</a> · <a href="https://wa.me/244924203717">WhatsApp</a></sub>
-</p>
